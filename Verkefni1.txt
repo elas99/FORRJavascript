@@ -5,9 +5,12 @@ en þegar þú notar undefined þá er ''absence of value'' sem þýðir að þa
 notkun: 'var a = null;'
          'var a' fyrir undefined
 
-2.Use strict lætur þig nota Strict Mode, sem gerir það léttara að troubleshoota því þú getur séð villurnar í staðinn fyrir að sjá bara t.d. ''Bad Syntax''
+2.Use strict lætur þig nota Strict Mode, sem gerir það léttara að troubleshoota
+því þú getur séð villurnar í staðinn fyrir að sjá bara t.d. ''Bad Syntax''
 
 3. ósvarað
+
+4. ósvarað
 
 5. Býr til undefined function sem gerir alert('Hello World'), sviganir í enda kalla í functionið strax
 
