@@ -1,5 +1,6 @@
 # FORRJavascript
-Javascript áfangi
+Javascript áfangi Verkefni 1
+
 1. Null, er "Value of nothing" sem þýðir að það er gildi, en það gildir sem ekkert,
 en þegar þú notar undefined þá er ''absence of value'' sem þýðir að það er meira að segja ekki gildi skráð.
 notkun: 'var a = null;'
