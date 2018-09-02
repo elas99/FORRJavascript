@@ -9,8 +9,8 @@ notkun: 'var a = null;'
 því þú getur séð villurnar í staðinn fyrir að sjá bara t.d. ''Bad Syntax''
 
 3. Let er aðeins notað í 'Block' eða 'Scope' sem þú ert nú þegar staddur í,
-en var er variable sem fer í gegnum allt, hérna er dæmi um hvað ég meina https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
-
+en var er variable sem fer í gegnum allt,
+hérna er dæmi um hvað ég meina https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
 td ef þú setur var í einhverja for loop'u, þá mun það halda gildinu sem hún fékk í for loopinu fyrir utan loopuna, en let hefur aðeins gildið inn í for loopuni 
 
 4. 
