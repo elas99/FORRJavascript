@@ -8,9 +8,24 @@ notkun: 'var a = null;'
 2.Use strict lætur þig nota Strict Mode, sem gerir það léttara að troubleshoota
 því þú getur séð villurnar í staðinn fyrir að sjá bara t.d. ''Bad Syntax''
 
-3. ósvarað
+3. Let er aðeins notað í 'Block' eða 'Scope' sem þú ert nú þegar staddur í, en var er variable sem fer í gegnum allt, hérna er dæmi um hvað ég meina https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
+td ef þú setur var í einhverja for loop'u, þá mun það halda gildinu sem hún fékk í for loopinu fyrir utan loopuna, en let hefur aðeins gildið inn í for loopuni 
 
-4. ósvarað
+4. 
+         1. function fall(a, b) {
+                   return a + b;
+                  }
+         2. var fall = function(a, b) {
+                   return a + b;
+                  };
+                  
+          3. var fall = function abcfall(a, b) {
+                     return a + b;      //fall og abcfall geta líka bæði heitið fall, eina ástæðan að nota er fyrir debugging
+                  };
+                  
+                  
+                  
+                 
 
 5. Býr til undefined function sem gerir alert('Hello World'), sviganir í enda kalla í functionið strax
 
@@ -27,7 +42,7 @@ notkun: 'var a = null;'
          1. alert(foo()); 
   
   
-7. ósvarað
+7. for og for-in hefur verið til lengi en for-of aðeins frá ECMAScript 6
 
 
 8.
