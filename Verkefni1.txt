@@ -5,34 +5,22 @@ notkun: 'var a = null;' og 'var a' fyrir undefined
 
 2.Use strict lætur þig nota Strict Mode, sem gerir það léttara að troubleshoota því þú getur séð villurnar í staðinn fyrir að sjá bara t.d. ''Bad Syntax''
 
-3. 
-
+3. ósvarað
 
 5. Býr til undefined function sem gerir alert('Hello World'), sviganir í enda kalla í functionið strax
 
 6. 
- 
   2. function foo(){
- 
   4. function bar() {
-  
   5.   return 3;
-  
       }
-      
-  3.     return bar(); 
-  
+  3.     return bar();  
   6. function bar() { //Þetta overwrite'ar function bar og breytir því í 8 í staðinn fyrir 3.
-  
-  7.    return 8;
-  
-      }
-      
-    }
-    
+  7.   return 8;
+      }     
+    }   
   1. alert(foo()); 
   
-
 7.
 
 
