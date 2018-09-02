@@ -15,16 +15,16 @@ notkun: 'var a = null;'
 5. Býr til undefined function sem gerir alert('Hello World'), sviganir í enda kalla í functionið strax
 
 6. 
-  2. function foo(){
-  4. function bar() {
-  5.   return 3;
-      }
-  3.     return bar();  
-  6. function bar() { //Þetta overwrite'ar function bar og breytir því í 8 í staðinn fyrir 3.
-  7.   return 8;
-      }     
-    }   
-  1. alert(foo()); 
+         2. function foo(){
+         4. function bar() {
+         5.   return 3;
+             }
+         3.     return bar();  
+         6. function bar() { //Þetta overwrite'ar function bar og breytir því í 8 í staðinn fyrir 3.
+         7.   return 8;
+              }     
+            }   
+         1. alert(foo()); 
   
   
 7. ósvarað
