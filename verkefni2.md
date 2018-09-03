@@ -33,9 +33,8 @@
         return 'Your balance is currently $'+ this.balance+' and your interest rate is '+this.interestRatePercent+'%.'
     }
 };
-
-console.log(savingsAccount.printAccountSummary());```
-
+console.log(savingsAccount.printAccountSummary());
+```
 
 5. ```javascript
     var donuts = [
@@ -48,4 +47,5 @@ console.log(savingsAccount.printAccountSummary());```
 // your code goes here
 donuts.forEach(function(donut){
     console.log(donut.type +' donuts cost $'+donut.cost+" each")
-});```
+});
+```
