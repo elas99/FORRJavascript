@@ -15,7 +15,7 @@ hérna er dæmi um hvað ég meina https://developer.mozilla.org/en-US/docs/Web/
 td ef þú setur var í einhverja for loop'u, þá mun það halda gildinu sem hún fékk í for loopinu fyrir utan loopuna,
 en let hefur aðeins gildið inn í for loopuni 
 
-4. 
+4.       ```javascript
          1. function fall(a, b) {
                    return a + b;
                   }
@@ -26,6 +26,7 @@ en let hefur aðeins gildið inn í for loopuni
           3. var fall = function abcfall(a, b) {
                      return a + b;      //fall og abcfall geta líka bæði heitið fall, eina ástæðan að nota er fyrir debugging
                   };
+           ```
                   
                   
                   
@@ -34,6 +35,7 @@ en let hefur aðeins gildið inn í for loopuni
 5. Býr til undefined function sem gerir alert('Hello World'), sviganir í enda kalla í functionið strax
 
 6. 
+         ```javascript
          2. function foo(){
          4. function bar() {
          5.   return 3;
@@ -44,12 +46,13 @@ en let hefur aðeins gildið inn í for loopuni
               }     
             }   
          1. alert(foo()); 
-  
+         ```
   
 7. for og for-in hefur verið til lengi en for-of aðeins frá ECMAScript 6
 
 
 8.
+  ```javascript
   var test = [12, 929, 11, 3, 199, 1000, 7, 1, 24, 37, 4,
     19, 300, 3775, 299, 36, 209, 148, 169, 299,   
     6, 109, 20, 58, 139, 59, 3, 1, 139  
@@ -64,8 +67,10 @@ en let hefur aðeins gildið inn í for loopuni
       }
      console.log(tests);
   });
+  ```
 
 9.
+         ```javascript
     var bills = [50.23, 19.12, 34.01,
       100.11, 12.15, 9.90, 29.11, 12.99,
         10.00, 99.22, 102.20, 100.10, 6.77, 2.22
@@ -76,9 +81,10 @@ en let hefur aðeins gildið inn í for loopuni
       total = total.toFixed(2);
       console.log(total);
     });
-
+         ```
 10.
-var numbers = [
+         ```javascript
+         var numbers = [
     [243, 12, 23, 12, 45, 45, 78, 66, 223, 3],
     [34, 2, 1, 553, 23, 4, 66, 23, 4, 55],
     [67, 56, 45, 553, 44, 55, 5, 428, 452, 3],
@@ -103,5 +109,5 @@ for (var r = 0; r < numbers.length; r++) {
       }
       }
   }
-
+```
    
