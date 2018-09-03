@@ -2,15 +2,18 @@
 
 
 
-3. var breakfast = {
+3. ```javascript
+    var breakfast = {
     name: 'The Lumberjack',
     price: '$9.95',
     ingredients: ['eggs', 'sausage', 'toast', 'hashbrowns', 'pancakes']
-}
+    }```
 
 
 
-4. var savingsAccount = {
+
+4. ```javascript
+    var savingsAccount = {
     balance: 1000,
     interestRatePercent: 1,
     deposit: function addMoney(amount) {
@@ -31,10 +34,11 @@
     }
 };
 
-console.log(savingsAccount.printAccountSummary());
+console.log(savingsAccount.printAccountSummary());```
 
 
-5. var donuts = [
+5. ```javascript
+    var donuts = [
     { type: "Jelly", cost: 1.22 },
     { type: "Chocolate", cost: 2.45 },
     { type: "Cider", cost: 1.59 },
@@ -44,4 +48,4 @@ console.log(savingsAccount.printAccountSummary());
 // your code goes here
 donuts.forEach(function(donut){
     console.log(donut.type +' donuts cost $'+donut.cost+" each")
-});
+});```
