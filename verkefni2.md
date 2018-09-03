@@ -32,9 +32,9 @@
         console.log('Welcome!')
         return 'Your balance is currently $'+ this.balance+' and your interest rate is '+this.interestRatePercent+'%.'
     }
-};
-console.log(savingsAccount.printAccountSummary());
-```
+    };
+    console.log(savingsAccount.printAccountSummary());
+    ```
 
 5. ```javascript
     var donuts = [
